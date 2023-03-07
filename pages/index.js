@@ -7,6 +7,7 @@ function Home() {
         <h1>سلام</h1>
         <Link href="/blog">بلاگ</Link>
       </div>
+      
     </>
   )
 }
