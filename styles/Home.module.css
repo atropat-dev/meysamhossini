@@ -1,0 +1,30 @@
+.container {
+  padding: 1.5rem;
+  color: var(--white);
+}
+
+.child {
+  position: absolute;
+  bottom: 0;
+  background: var(--white);
+  height: calc(var(--height) / 2.2);
+  width: calc(var(--width));
+  border-radius: var(--border-radius);
+}
+
+.content {
+  padding: 0rem 1.5rem;
+}
+
+.meysam {
+  width: 200px;
+  height: 200px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}

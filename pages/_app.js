@@ -7,12 +7,12 @@ const vazirmatn = Vazirmatn({
 
 export default function App({ Component, pageProps }) {
   return (
-    <html className={vazirmatn.className}>
-      <header>header</header>
-      <main>
-        <Component {...pageProps} />
-      </main>
-      <footer>فوتر</footer>
+    <html lang="fa-ir" className={vazirmatn.className}>
+      <body>
+        <main>
+          <Component {...pageProps} />
+        </main>
+      </body>
     </html>
   )
 }
