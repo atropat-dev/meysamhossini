@@ -1,6 +1,10 @@
 {
-  "pages": {},
+  "pages": {
+    "/_app": [
+      "static/media/877aba4a436179a5-s.p.woff2"
+    ]
+  },
   "app": {},
   "appUsingSizeAdjust": false,
-  "pagesUsingSizeAdjust": false
+  "pagesUsingSizeAdjust": true
 }
